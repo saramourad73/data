@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/data/static/css/main.e0ef556b.css",
+    "main.js": "/data/static/js/main.86318e73.js",
+    "static/media/pie-chart.png": "/data/static/media/pie-chart.dacffd4a4bb2aa61d865.png",
+    "static/media/1.webp": "/data/static/media/1.015fefe14f6e83ff0580.webp",
+    "static/media/person.jpg": "/data/static/media/person.348b2fcc3bf8c629eea7.jpg",
+    "index.html": "/data/index.html",
+    "main.e0ef556b.css.map": "/data/static/css/main.e0ef556b.css.map",
+    "main.86318e73.js.map": "/data/static/js/main.86318e73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0ef556b.css",
+    "static/js/main.86318e73.js"
+  ]
+}
