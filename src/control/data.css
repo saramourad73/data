@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.data{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table{
+   background-color:rgb(247, 246, 246);
+   width: 1200px;
+   height: auto;
+   margin-top: 70px;
+   font-size: 40px;
+   padding-bottom: 20px;
+   padding: 20px 0px 20px 0px;
+   box-shadow: 1px 2px 7px 5px rgb(96, 93, 93);
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   table-layout: auto;
+ margin-left: 530px;
+   border-collapse: collapse;
+ 
+}
+
+
+
+
+table td{
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-top: 0.5px solid  brown;
+    padding-left: 50px;
+   
+    
+}
+table th{
+    color: brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+  
+}
+
+td{
+    padding: 30px 30px 30px 0px;
+    color: black;
+}
+
+.heade{
+
+    
+  padding-left: 90px;
+}
+
+.mail{
+    font-size: 40px;
+    padding-right: 70px;
+}
+
+.header{
+padding-left: 40px;
+
+
+   
+}
+
+.user{
+
+    padding-left:100px ;
+    font-size: 40px;
+}
+
+.action{
+ 
+  margin-right: 55px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+
+
+table tbody  :hover{
+    background-color:rgb(203, 203, 203);
+}
+
+  
+
+  .delet{
+
+    color:brown;
+    padding-left: 20px;
+  }
+
+
+  .marg{
+
+
+    margin-left: 70px;
+  }
+
+
+  .icons{
+
+    padding: 20px;
+    cursor: pointer;
+  }

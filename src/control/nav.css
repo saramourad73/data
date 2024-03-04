@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   position: fixed;
+   left: 0px;
+   width: 7%;
+   height: 100vh;
+   background-color:  rgb(21, 21, 21);
+   box-shadow: 1px 1px 7px 7px rgb(24, 24, 24);
+   padding: 120px 0px 120px 0px;
+
+   top: 0px;
+   border: 4px solid rgb(225, 120, 55);
+   border-top: none;
+   border-bottom:none ;
+   border-left: none;
+  
+   
+
+}
+
+ a{
+   text-decoration: none;
+   padding:10px 50px 10px 50px;  
+   font-size: 40px;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   transition:0.5s;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}   
+
+   a:hover{
+    background-color:rgb(225, 120, 55) ;
+    padding:30px 20px 30px 20px;    
+   }
+
+   .active{
+    background-color:rgb(225, 120, 55);
+    padding: 20px ;
+   }
+
+
+   .profile{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+  
+   
+
+   }
+   
+   .photo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+  
+   
+}
+
+.name{
+
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+}

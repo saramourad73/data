@@ -1,0 +1,128 @@
+.frm{
+ 
+ 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.fform{
+   margin-top: 100px;
+   background-color: rgb(247, 246, 246);
+   width: 600px;
+   padding: 2rem;
+   border-radius:15px ;
+   height: 650px;
+   display: block;
+   box-shadow: 1px 2px 7px 2px rgb(96, 93, 93);
+   
+}
+
+.btn{
+  
+    
+    border: none;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    width: 130px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 25px;
+    box-shadow: 1px 2px 7px 2px rgb(96, 93, 93);
+    cursor: pointer;
+    transition:0.5s ;
+    margin-left: 200px;
+    margin-top: 70px;
+  
+ }
+ 
+ .btn:hover{
+ 
+     background-color:  rgb(225, 120, 55);
+ }
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.in{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+}
+
+.lab{
+    padding: 15px;
+    font-size: 30px;
+    color: brown ;
+}
+
+
+.bts{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.cancle{
+
+    border: none;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    width: 130px;
+    height: 70px; 
+    border-radius: 15px;
+    font-size: 25px;
+    box-shadow: 1px 2px 7px 2px rgb(96, 93, 93);
+    cursor: pointer;
+    transition:0.5s ; 
+}
+
+.cancle:hover{
+ 
+    background-color:  rgb(225, 120, 55);
+}
+
+.hhed{
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.click{
+    border: none;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    width: 90px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+    box-shadow: 1px 2px 7px 2px rgb(96, 93, 93);
+    cursor: pointer;
+    transition:0.5s ;
+    margin: 10px;
+}
+
+.click:hover{
+    background-color:  rgb(225, 120, 55);
+}
+
+
+.users{
+    margin-bottom: 70px;
+}

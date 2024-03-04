@@ -1,0 +1,117 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: rgba(19, 19, 19, 0.968);
+}
+
+.contener{
+
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+   
+    
+}
+
+
+.box1{
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px 4px rgb(177, 174, 174);
+    color: rgb(8, 8, 8);
+    margin-right: 100px;
+    margin-top: 40px;
+    
+}
+.header{
+   margin-left: 40px;
+   margin-bottom:50px ;
+   font-size: 40px;
+}
+
+.pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+ 
+}
+
+.user{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 30px;
+   
+}
+
+.data{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.email{
+
+    font-size: 20px;
+    padding: 2px;
+
+}
+
+
+
+.number{
+
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 200px;
+
+    
+
+}
+
+.chart{
+
+    width: 500px;
+    height: 350px;  
+    padding: 70px;
+
+}
+
+
+
+.box2{
+
+   
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px 4px rgb(177, 174, 174);
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+
+}
